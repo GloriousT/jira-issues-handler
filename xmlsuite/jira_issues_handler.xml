@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Jira Issues Handler Test Suite" parallel="tests">
+    <listeners>
+        <listener class-name="com.jiraissues.listeners.JiraIssuesTestNGListener"/>
+    </listeners>
+    <test name="Jira Issues Handler Tests" parallel="classes">
+        <packages>
+            <package name="com.jiraissues" />
+            <package name="com.jiraissues.annotations" />
+        </packages>
+    </test>
+</suite>

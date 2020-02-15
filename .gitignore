@@ -1,0 +1,20 @@
+# eclipse
+.project
+.classpath
+.settings
+
+# IntelliJ
+.idea/*
+!.idea/runConfigurations/*
+*.iml
+*.ipr
+*.iws
+
+# binary
+target
+dist
+bin
+test-output
+
+# misc
+*.log
